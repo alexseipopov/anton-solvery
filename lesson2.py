@@ -11,3 +11,5 @@ def name_of_func(a, b):
 
 k = name_of_func(4, 6) * name_of_func(1, 2)
 print(k)
+print
+
