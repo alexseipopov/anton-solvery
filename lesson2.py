@@ -1,9 +1,8 @@
 # Здесь бует ДОМАШКА
-
-# Сложение
-def name_of_func(a, b, c):
-   c = (a + b) * c
-   return c
-k = name_of_func(3, 5, 6) + name_of_func(9, 3, 4)
-print(k)
+# Умножение
+def name_of_func(a, b, c, d):
+    l = a + (b + d) * c
+    return l
+n = name_of_func(1, 3, 2, 4) * name_of_func(4, 3, 2, 1)
+print(n)
 
