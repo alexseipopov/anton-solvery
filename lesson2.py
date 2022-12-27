@@ -1,8 +1,8 @@
 # Здесь бует ДОМАШКА
-# Деление
-def name_of_func(a, v):
-    y = a * v
-    return y
-t = name_of_func(6, 9) // name_of_func(3, 3)
-print(t)
+# Вычетание
+def name_of_func(a, b, c, d):
+    l = a * (b - c) // d
+    return l
+k = name_of_func(10, 20, 3, 2) - name_of_func(4, 5, 2, 1)
+print(k)
 
