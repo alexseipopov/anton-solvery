@@ -14,6 +14,8 @@ c = sqrt (a ** 2 + b ** 2) - общий вид теоремы Пифагора
 """
 
 # Решение задачи:
+import random
+random.randint(0, 100)
 
 print("Введите длину катита A:")
 a = int(input())
